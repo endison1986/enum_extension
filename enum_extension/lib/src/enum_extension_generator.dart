@@ -77,7 +77,7 @@ class EnumExtensionGenerator extends GeneratorForAnnotation<EnumExtension> {
     for (var field in fields) {
       if (checkField(field)) continue;
       out.writeln('case ${element.name}.${field.name}:');
-      out.writeln('return \'field.name\';');
+      out.writeln('return \'${field.name}\';');
     }
     out.writeln('default:');
     out.writeln('throw ArgumentError();');
