@@ -1,0 +1,6 @@
+
+
+class EnumExtension {
+
+  const EnumExtension();
+}

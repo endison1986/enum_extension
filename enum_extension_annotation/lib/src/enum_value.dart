@@ -1,0 +1,4 @@
+class EnumValue {
+
+  const EnumValue();
+}
