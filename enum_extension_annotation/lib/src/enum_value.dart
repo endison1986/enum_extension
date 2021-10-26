@@ -1,4 +1,7 @@
-class EnumValue {
+class EnumField {
+  final Map<String,dynamic> values;
 
-  const EnumValue();
+  const EnumField(this.values);
 }
+
+
