@@ -13,7 +13,7 @@ dependencies:
   build_config: ^1.0.0
   source_gen: ^1.1.0
   enum_extension_annotation:
-    path: ../enum_extension_annotation
+    git: https://github.com/endison1986/enum_extension_annotation.git
 
 dev_dependencies:
   lints: ^1.0.0
